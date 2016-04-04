@@ -14,6 +14,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Microsoft.AspNetCore.WebPages", "src\Microsoft.AspNetCore.WebPages\Microsoft.AspNetCore.WebPages.xproj", "{AC6669A8-8462-4A2E-9029-9684C2D0F97A}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "samples", "samples", "{A34C62CC-AA52-454B-B075-3628EE7FF930}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Sandbox", "samples\Sandbox\Sandbox.xproj", "{DA6B9179-C978-402D-9037-3A18C682AFE4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,11 +28,16 @@ Global
 		{AC6669A8-8462-4A2E-9029-9684C2D0F97A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AC6669A8-8462-4A2E-9029-9684C2D0F97A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AC6669A8-8462-4A2E-9029-9684C2D0F97A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA6B9179-C978-402D-9037-3A18C682AFE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA6B9179-C978-402D-9037-3A18C682AFE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA6B9179-C978-402D-9037-3A18C682AFE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA6B9179-C978-402D-9037-3A18C682AFE4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{AC6669A8-8462-4A2E-9029-9684C2D0F97A} = {3C0D6505-79B3-49D0-B4C3-176F0F1836ED}
+		{DA6B9179-C978-402D-9037-3A18C682AFE4} = {A34C62CC-AA52-454B-B075-3628EE7FF930}
 	EndGlobalSection
 EndGlobal
